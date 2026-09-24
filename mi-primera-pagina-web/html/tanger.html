@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descubre Marruecos - Contacto</title>
+    <title>Descubre Marruecos - Tánger</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -25,43 +25,32 @@
         </nav>
     </header>
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="contacto">
+    <!-- PÁGINA CIUDAD -->
+    <section class="seccion pagina-ciudad">
+        <h2>Tánger</h2>
 
-        <h2>Contacto</h2>
-
-        <p>
-            ¿Quieres conocer más sobre Marruecos? Envíanos un mensaje.
+        <p class="texto-galeria">
+            Ciudad del norte, junto al estrecho de Gibraltar. Punto de encuentro de culturas, destaca por su medina, la Cueva de Hércules y el Cabo Espartel.
         </p>
 
-        <form onsubmit="enviarFormulario(event)">
+        <div class="galeria">
+            <div class="imagen">
+                <img src="../img/tanger-1.jpg" alt="La medina de Tánger">
+                <h3>La Medina</h3>
+            </div>
 
-            <input
-                type="text"
-                id="nombre"
-                placeholder="Tu nombre"
-                required
-            >
+            <div class="imagen">
+                <img src="../img/tanger-2.jpg" alt="La Cueva de Hércules">
+                <h3>Cueva de Hércules</h3>
+            </div>
 
-            <input
-                type="email"
-                id="email"
-                placeholder="Tu correo electrónico"
-                required
-            >
+            <div class="imagen">
+                <img src="../img/tanger-3.jpg" alt="El Cabo Espartel">
+                <h3>Cabo Espartel</h3>
+            </div>
+        </div>
 
-            <textarea
-                id="mensaje"
-                placeholder="Escribe tu mensaje..."
-                required
-            ></textarea>
-
-            <button type="submit">Enviar mensaje</button>
-
-        </form>
-
-        <p id="respuesta"></p>
-
+        <a href="ciudades.html" class="boton volver-ciudades">Volver a Ciudades</a>
     </section>
 
     <!-- FOOTER -->
@@ -71,8 +60,6 @@
             <a href="https://www.instagram.com/jvvled/" target="_blank">Instagram: @jvvled</a>
         </p>
     </footer>
-
-    <script src="../JavaScript/script.js"></script>
 
 </body>
 </html>
