@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre Marruecos - Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">🇲🇦 Marruecos</div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="ciudades.html">Ciudades</a>
+            <a href="lugares.html">Lugares</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+
+        <h2>Contacto</h2>
+
+        <p>
+            ¿Quieres conocer más sobre Marruecos? Envíanos un mensaje.
+        </p>
+
+        <form onsubmit="enviarFormulario(event)">
+
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Tu nombre"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Tu correo electrónico"
+                required
+            >
+
+            <textarea
+                id="mensaje"
+                placeholder="Escribe tu mensaje..."
+                required
+            ></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+
+        </form>
+
+        <p id="respuesta"></p>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Descubre Marruecos - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="../JavaScript/script.js"></script>
+
+</body>
+</html>
